@@ -1,0 +1,109 @@
+table {
+    margin-top: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+body {
+    background-image: radial-gradient(circle, black 0%, darkgray 50%, white 100%);
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    
+}
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    
+    background-color: #0c0505;
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    
+}
+/* Color for odd rows */
+tr:nth-child(odd) {
+    background-color: white; 
+}
+/* Color for even rows */
+tr:nth-child(even) {
+    background-color: lightgray; 
+}
+.add-button{
+    background-color: #0c0505;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+.edit-button, .delete-button {
+    background-color: #0c0505;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 70px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-button:hover, .delete-button:hover, .add-button:hover {
+    background-color: gray;
+}
+
+.heading {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    height: 100px;
+}
+
+.display {
+    padding: 8px;
+    background-image: radial-gradient(circle, black 0%, darkgray 50%, white 100%);
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color:black ; /* Set your desired text color */
+}
